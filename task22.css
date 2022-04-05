@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+p{
+  cursor: default;
+}
+
+.btn{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width:40px;
+  height:25px;
+  background-color :#d3d3d3;
+  border: solid 1px #000000;
+  border-radius: 5px;
+}
+
+.bigbtn{
+  width:100% !important;
+  height: 25px !important;
+}
+
+#result{
+  color:white;
+  text-align: right;
+}
